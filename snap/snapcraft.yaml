@@ -20,6 +20,5 @@
       # See 'snapcraft plugins'
       plugin: nil
       build-packages:
-      - qtbase5-dev
-      - dpkg-dev
+      - git
   
