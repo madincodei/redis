@@ -12,14 +12,6 @@
   confinement: devmode # use 'strict' once you have the right plugs and slots
 
   apps:
-    make-hello:
-      command: test
+    redismajids:
+      command: nproc
 
-  parts:
-    my-part:
-      # See 'snapcraft plugins'
-      plugin: nil
-      build-packages:
-      - git
-      - qtbase5-dev
-  
