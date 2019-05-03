@@ -18,9 +18,8 @@
   parts:
     my-part:
       # See 'snapcraft plugins'
-      plugin: make
+      plugin: nil
       build-packages:
       - qtbase5-dev
       - dpkg-dev
-      - git
   
